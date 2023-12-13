@@ -106,6 +106,29 @@ Pull Request 到原本專案 ： "Contribute"
   (Mac)在 GitHub Desktop 的選單中，選擇 "粗體GitHub Desktop" > "Settings" > “Integrations" > External Editor 選擇Visual Studio Code > "Save" 
 
 ## 如何在Visual Studio Code 安裝Git ->再連結Github
+要将 Visual Studio Code（VS Code）连接到 GitHub，您可以按照以下步骤进行设置：
+
+安装 Git：
+如果您还没有安装 Git，请先安装它。您可以从 Git 官方网站 下载并安装 Git。
+安装 Visual Studio Code：
+如果您还没有安装 Visual Studio Code，请从 VS Code 官方网站 下载并安装。
+在 Visual Studio Code 安装 GitHub 扩展：
+打开 VS Code，点击左侧的 "Extensions" 图标（或使用快捷键 Ctrl+Shift+X），在搜索框中输入 "GitHub"，找到并安装 "GitHub Pull Requests and Issues" 扩展。
+登录 GitHub 帐户：
+在 VS Code 中，按 Ctrl+Shift+P 打开命令面板。
+输入 "Sign in" 并选择 "GitHub: Sign in"。
+在弹出的浏览器中，输入 GitHub 帐户凭据进行登录。
+初始化仓库：
+如果您的项目还没有与 GitHub 仓库关联，可以通过以下步骤进行初始化：
+打开命令面板 (Ctrl+Shift+P)。
+输入 "Git: Initialize Repository" 并选择您的项目文件夹。
+接下来，按照提示完成初始化过程。
+提交更改：
+在 VS Code 中，使用 "Source Control" 面板（左侧的 "√" 图标）进行文件更改的提交。您可以输入提交消息并点击 "√" 图标提交更改。
+推送到 GitHub：
+如果您的仓库还没有关联到 GitHub，请在 Source Control 面板中点击 "…"（更多操作）按钮，选择 "Publish to GitHub"。
+如果已经关联，可以使用 "Sync" 按钮将本地更改推送到 GitHub。
+现在，您的项目应该已经与 GitHub 连接起来了。您可以在 VS Code 中使用 Source Control 面板、GitHub 扩展以及其他相关工具来管理和同步您的代码。
 ( 未完待續 ....  )
 
 ## 安中Node.js
